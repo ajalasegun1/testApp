@@ -79,6 +79,7 @@ const AfterHome = () => {
         data={dummy}
         ListHeaderComponent={renderHeader}
         renderItem={renderItem}
+        showsVerticalScrollIndicator={false}
       />
     </View>
   );
