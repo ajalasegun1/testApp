@@ -1,4 +1,4 @@
-import {StyleSheet, Text, View, TextInput} from 'react-native';
+import {StyleSheet, View, TextInput} from 'react-native';
 import React from 'react';
 
 const CustomTextInput = ({leftIcon, placeholder}) => {
@@ -9,6 +9,7 @@ const CustomTextInput = ({leftIcon, placeholder}) => {
         style={styles.textInput}
         placeholder={placeholder}
         placeholderTextColor="#0000004d"
+        selectionColor={'#000000'}
       />
     </View>
   );
@@ -29,7 +30,6 @@ const styles = StyleSheet.create({
   },
   textInput: {
     marginLeft: 10,
-    // backgroundColor: 'teal',
     padding: 0,
     flex: 1,
     fontSize: 14,
